@@ -137,7 +137,7 @@ body {
   padding-top: 40px;
   padding-bottom: 70px;
   text-align: center;
-  height: 100vh;
+  height: 100%;
 }
 .header__title {
   font-family: "Bebas";
