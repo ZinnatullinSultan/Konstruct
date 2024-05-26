@@ -42,6 +42,27 @@ html {
   box-sizing: border-box;
 }
 
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 100% of viewport height */
+  width: 100%;
+  background-image: url(../img/bg.jpg);
+  background-position: center;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  text-align: center;
+  height: 100%;
+}
+
 *,
 *::before,
 *::after {
@@ -131,13 +152,7 @@ body {
 }
 
 .header {
-  background-image: url(../img/bg.jpg);
-  background-position: center;
-  color: #fff;
-  padding-top: 40px;
-  padding-bottom: 70px;
-  text-align: center;
-  height: 100%;
+  position: relative;
 }
 .header__title {
   font-family: "Bebas";
@@ -159,6 +174,9 @@ body {
   line-height: 22px;
   letter-spacing: 3.7px;
   text-transform: uppercase;
+  position: absolute;
+  bottom: 20px;
+  transform: translateX(-50%);
 }
 
 .menu {
