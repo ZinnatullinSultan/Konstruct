@@ -32,20 +32,26 @@
             <span></span>
           </button>
           <ul class="menu__list">
-            <li class="menu__item"><a href="#" class="menu__link">HOME</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">ABOUT</a></li>
             <li class="menu__item">
-              <a href="#" class="menu__link">SERVICES</a>
+              <a href="#" class="menu__link">HOME</a>
             </li>
-            <li class="menu__item"><a href="#" class="menu__link">WORK</a></li>
             <li class="menu__item">
-              <a href="#" class="menu__link">CONTACT</a>
+              <a href="#about" class="menu__link">ABOUT</a>
+            </li>
+            <li class="menu__item">
+              <a href="#services" class="menu__link">SERVICES</a>
+            </li>
+            <li class="menu__item">
+              <a href="#notification" class="menu__link">WORK</a>
+            </li>
+            <li class="menu__item">
+              <a href="#email" class="menu__link">CONTACT</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <h2 class="about__title section__title">OUR STORY</h2>
         <div class="about__line line"></div>
@@ -78,7 +84,7 @@
         </div>
       </div>
     </section>
-    <section class="services">
+    <section class="services" id="services">
       <div class="container">
         <div class="services__top">
           <div class="services__title">
@@ -140,14 +146,13 @@
         </div>
       </div>
     </section>
-
-    <section class="notification">
+    <section class="notification" id="notification">
       <div class="container">
         <h2 class="notification__title">Want to build something amazing?</h2>
         <button class="notification__button btn">GET IN TOUCH</button>
       </div>
     </section>
-    <section class="email">
+    <section class="email" id="email">
       <div class="container">
         <div class="email__inner">
           <h2 class="email__title">Newsletter Signup</h2>
@@ -181,19 +186,19 @@
               <nav class="footer__nav">
                 <ul class="footer__menu menu-footer">
                   <li class="menu-footer__item">
-                    <a href="" class="menu-footer__link">HOME</a>
+                    <a href="#nav" class="menu-footer__link">HOME</a>
                   </li>
                   <li class="menu-footer__item">
-                    <a href="" class="menu-footer__link">ABOUT</a>
+                    <a href="#about" class="menu-footer__link">ABOUT</a>
                   </li>
                   <li class="menu-footer__item">
-                    <a href="" class="menu-footer__link">SERVICES</a>
+                    <a href="#services" class="menu-footer__link">SERVICES</a>
                   </li>
                   <li class="menu-footer__item">
                     <a href="#" class="menu-footer__link">PROJECTS</a>
                   </li>
                   <li class="menu-footer__item">
-                    <a href="#" class="menu-footer__link">CONTACT US</a>
+                    <a href="#email" class="menu-footer__link">CONTACT US</a>
                   </li>
                   <li class="menu-footer__item">
                     <a href="#" class="menu-footer__link">FAQ</a>
@@ -202,7 +207,7 @@
                     <a href="#" class="menu-footer__link">TERMS</a>
                   </li>
                   <li class="menu-footer__item l1">
-                    <a href="#" class="menu-footer__link ">CAREERS</a>
+                    <a href="#" class="menu-footer__link">CAREERS</a>
                   </li>
                   <li class="menu-footer__item">
                     <a href="#" class="menu-footer__link">BLOG</a>
@@ -220,17 +225,21 @@
               <h3 class="footer__title">CONTACT US</h3>
               <div class="footer__grid">
                 <address class="footer__address">
-                  213 Baker Street <br>
-                  Oriel City Kounty<br>
-                  7000 KNW,<br>
+                  213 Baker Street <br />
+                  Oriel City Kounty<br />
+                  7000 KNW,<br />
                   Kountry Name
                 </address>
-                <a href="tel:+239942334022" class="footer__phone">+23 994 233 4022</a>
-                <a href="mailto:info@konstruct.com" class="footer__email">info@konstruct.com</a>
+                <a href="tel:+239942334022" class="footer__phone"
+                  >+23 994 233 4022</a
+                >
+                <a href="mailto:info@konstruct.com" class="footer__email"
+                  >info@konstruct.com</a
+                >
                 <div class="footer__socials">
-                  <img src="img/facebook.svg" alt="" class="footer__social" />
-                  <img src="img/twitter.svg" alt="" class="footer__social" />
-                  <img src="img/google.svg" alt="" class="footer__social" />
+                  <a href="#" class="social__link"><img src="img/facebook.svg" alt="" class="footer__social" /></a>
+                  <a href="#" class="social__link"><img src="img/twitter.svg" alt="" class="footer__social" /></a>
+                  <a href="#" class="social__link"><img src="img/google.svg" alt="" class="footer__social" /></a>
                 </div>
               </div>
             </div>
