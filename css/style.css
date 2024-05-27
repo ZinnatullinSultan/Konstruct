@@ -157,6 +157,14 @@ body {
   opacity: 1;
 }
 
+.about, .services, .email {
+  scroll-margin-top: 15px;
+}
+
+.notification {
+  scroll-margin-top: 350px;
+}
+
 .header {
   display: flex;
   flex-direction: column;

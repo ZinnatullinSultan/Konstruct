@@ -150,6 +150,12 @@ body{
 .overlay--open{
   opacity: 1; 
 }
+.about, .services, .email{
+  scroll-margin-top: 15px;
+}
+.notification{
+  scroll-margin-top: 350px;
+}
 
 //!Секции
 .header {
